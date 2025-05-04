@@ -6,6 +6,8 @@ const AdminLogin = () =>  {
 
     const dispatch = useDispatch();
 
+    console.log("test deploy after switching branch to master");
+
     const [userData , setUserData] = useState({
         email: "",
         password: ""
