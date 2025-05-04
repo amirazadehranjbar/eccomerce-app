@@ -1,0 +1,17 @@
+# Node modules
+backend/node_modules/
+dashboard/node_modules/
+
+# Env files
+backend/.env
+
+# IDE folders
+backend/.idea/
+dashboard/.idea/
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
