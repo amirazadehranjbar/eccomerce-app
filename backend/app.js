@@ -26,4 +26,7 @@ app.use("/",authRoutes);
 app.use(errorHandler);
 
 app.listen(process.env.PORT, () => {
-    console.log(`Server is running on port ${process.env.PORT}`)});
+    console.log(`Server is running on port ${process.env.PORT}`)
+    console.log("Test deploy after changing branch to master");
+
+});
