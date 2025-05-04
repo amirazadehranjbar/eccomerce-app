@@ -11,6 +11,10 @@ const PublicRoutes = [
         element: <Login/>
     },
     {
+        path: "/login",
+        element: <Login/>
+    },
+    {
         path: "/register",
         element: <Register/>
     },
