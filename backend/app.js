@@ -10,7 +10,7 @@ const authRoutes = require("./routes/authRoutes");
 app.use(cors(
 
     {
-        origin: process.env.CORS_ORIGIN,
+        origin: [process.env.CORS_ORIGIN, "https://eccomerce-app-git-master-amir-azadeh-ranjbars-projects.vercel.app"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
         credentials: true,
@@ -20,7 +20,7 @@ app.use(cors(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/",authRoutes);
+app.use("/", authRoutes);
 
 
 app.use(errorHandler);
