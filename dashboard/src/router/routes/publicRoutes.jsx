@@ -7,7 +7,7 @@ const AdminLogin = lazy(() => import("../../views/auth/adminLogin.jsx"));
 const PublicRoutes = [
 
     {
-        path: "/login",
+        path: "/",
         element: <Login/>
     },
     {
